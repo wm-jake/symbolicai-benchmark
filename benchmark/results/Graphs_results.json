@@ -1,0 +1,319 @@
+{
+  "GPT-4 Turbo": {
+    "performance": 0.0015058083056796432,
+    "pass_rate": NaN,
+    "average_time": 11.378103882074356,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_workflow",
+        "seed": 42,
+        "time": 182.0496621131897,
+        "success": false,
+        "scores": [
+          0.17474514227476265,
+          0.0,
+          0.0,
+          0,
+          0,
+          0.14305152201375532,
+          0.0,
+          0.0,
+          0,
+          0,
+          0,
+          0.13018102097582507,
+          0.0,
+          0.0,
+          0,
+          0,
+          0.12581299711931662,
+          0.0,
+          0.0,
+          0,
+          0,
+          0,
+          0.1449805189750193,
+          0.0,
+          0.0,
+          0,
+          0,
+          0,
+          0.1448848392387143,
+          0.0,
+          0.0,
+          0,
+          0,
+          0.12415420792845262,
+          0.0,
+          0.0,
+          0,
+          0,
+          0,
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  "LlaMA 2 13B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "GPT-3.5 Turbo": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Zephyr 7B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Gemini 1.0 Pro": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Mistral 7B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "LlaMA 3 8B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "LlaMA 3 70B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Random": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 0.22818920016288757,
+    "unique_tests": 144,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 42,
+        "time": 0.47025561332702637,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 18,
+        "time": 0.4466667175292969,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 97,
+        "time": 0.45591235160827637,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 3,
+        "time": 0.45805954933166504,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 200,
+        "time": 0.44788098335266113,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 32,
+        "time": 0.44524264335632324,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 815,
+        "time": 0.4628334045410156,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_create_paper",
+        "seed": 6,
+        "time": 0.4641759395599365,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

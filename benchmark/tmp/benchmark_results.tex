@@ -1,0 +1,33 @@
+
+\begin{figure*}[ht]
+  \centering
+  \begin{minipage}{.6\textwidth}
+    \centering
+    \begin{adjustbox}{max width=\linewidth}
+    \begin{tabular}{lccccccccc}
+      \toprule
+      \textbf{Benchmarks} &  GPT-4 Turbo & GPT-3.5 Turbo & Random & LlaMA 2 13B & LlaMA 3 8B & LlaMA 3 70B & Mistral 7B & Zephyr 7B & Gemini 1.0 Pro \\
+      \midrule
+      Associations & \textbf{0.25} & \textbf{0.25} & 0.08 & \textbf{0.25} & \textbf{0.25} & \textbf{0.25} & \textbf{0.25} & \textbf{0.25} & \textbf{0.25} \\
+      Modality & nan & nan & 0.07 & nan & nan & nan & nan & nan & nan \\
+      Code & 0.00 & 0.00 & \textbf{0.00} & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+      Logic & nan & nan & 0.00 & nan & nan & nan & nan & nan & nan \\
+      Graphs & \textbf{0.02} & nan & 0.00 & nan & nan & nan & nan & nan & nan \\
+      \midrule
+      \textbf{Total} & nan & nan & 0.03 & nan & nan & nan & nan & nan & nan \\
+      \bottomrule
+    \end{tabular}
+    \end{adjustbox}
+    \label{tab:benchmark_results}
+  \end{minipage}%
+  ~
+  \begin{minipage}{.4\textwidth}
+    \centering
+    \begin{adjustbox}{max width=\linewidth}
+    \includegraphics[width=\linewidth]{images/benchmark_comparison_chart.pdf}
+    \end{adjustbox}
+    \label{fig:spider_plot}
+  \end{minipage}
+  \caption{Placeholder for performance benchmarks and comparison chart for various models.}
+  \label{fig:my_label}
+\end{figure*}

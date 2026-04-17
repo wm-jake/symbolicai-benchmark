@@ -1,0 +1,660 @@
+{
+  "GPT-4 Turbo": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "LlaMA 2 13B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "GPT-3.5 Turbo": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Zephyr 7B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Gemini 1.0 Pro": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Mistral 7B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "LlaMA 3 8B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "LlaMA 3 70B": {
+    "performance": 0.0,
+    "pass_rate": NaN,
+    "average_time": 0.0,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": []
+  },
+  "Random": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 0.11720852057139079,
+    "unique_tests": 432,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 42,
+        "time": 0.08871984481811523,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 18,
+        "time": 0.08460855484008789,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 97,
+        "time": 0.08857154846191406,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 3,
+        "time": 0.11489176750183105,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 200,
+        "time": 0.09132719039916992,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 32,
+        "time": 0.08924055099487305,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 815,
+        "time": 0.0902259349822998,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_AND_logic",
+        "seed": 6,
+        "time": 0.0897223949432373,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 42,
+        "time": 0.09114742279052734,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 18,
+        "time": 0.0970618724822998,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 97,
+        "time": 0.08559584617614746,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 3,
+        "time": 0.092498779296875,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 200,
+        "time": 0.09139633178710938,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 32,
+        "time": 0.08883857727050781,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 815,
+        "time": 0.08487296104431152,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_OR_logic",
+        "seed": 6,
+        "time": 0.09136462211608887,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 42,
+        "time": 0.09472203254699707,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 18,
+        "time": 0.08988642692565918,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 97,
+        "time": 0.08887577056884766,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 3,
+        "time": 0.09392142295837402,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 200,
+        "time": 0.0861365795135498,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 32,
+        "time": 0.08691906929016113,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 815,
+        "time": 0.09222888946533203,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_XOR_logic",
+        "seed": 6,
+        "time": 0.08276605606079102,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 42,
+        "time": 0.13146376609802246,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 18,
+        "time": 0.12315893173217773,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 97,
+        "time": 0.14177966117858887,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 3,
+        "time": 0.12859678268432617,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 200,
+        "time": 0.12501811981201172,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 32,
+        "time": 0.12468314170837402,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 815,
+        "time": 0.1268455982208252,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_dsl_writing_capability",
+        "seed": 6,
+        "time": 0.12679481506347656,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 42,
+        "time": 0.13706088066101074,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 18,
+        "time": 0.1305866241455078,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 97,
+        "time": 0.12896990776062012,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 3,
+        "time": 0.12162256240844727,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 200,
+        "time": 0.12408900260925293,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 32,
+        "time": 0.13808631896972656,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 815,
+        "time": 0.1379222869873047,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_factorize_formula",
+        "seed": 6,
+        "time": 0.13663291931152344,
+        "success": true,
+        "scores": [
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 42,
+        "time": 0.1748185157775879,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 18,
+        "time": 0.16925835609436035,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 97,
+        "time": 0.16778063774108887,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 3,
+        "time": 0.17247247695922852,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 200,
+        "time": 0.16887688636779785,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 32,
+        "time": 0.1750178337097168,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 815,
+        "time": 0.1705760955810547,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_solve_puzzle",
+        "seed": 6,
+        "time": 0.16835641860961914,
+        "success": false,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

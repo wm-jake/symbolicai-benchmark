@@ -1,0 +1,1148 @@
+{
+  "GPT-4 Turbo": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 0.5985620518525442,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 2.164093017578125,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 1.8603439331054688,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 1.667513370513916,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 1.953838586807251,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 1.7359087467193604,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 1.6860010623931885,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 1.6369805335998535,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 1.6608099937438965,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "LlaMA 2 13B": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 2.4852611819903054,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.16939139366149902,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.16597247123718262,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.16184020042419434,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.15886521339416504,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.16025137901306152,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 58.54907822608948,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.13986444473266602,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.1410050392150879,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "GPT-3.5 Turbo": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 3.012561390797297,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 1.9857056140899658,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 1.7792727947235107,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 1.7110381126403809,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 1.7826030254364014,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 1.7447502613067627,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 60.01016044616699,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 1.7541019916534424,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 1.5338411331176758,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "Zephyr 7B": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 5.048153092463811,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.16410422325134277,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.1613767147064209,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.17191410064697266,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.19041991233825684,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.1616213321685791,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 119.98424410820007,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.1494739055633545,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.17251992225646973,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "Gemini 1.0 Pro": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 4.340838650862376,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 10.150823593139648,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 5.202671766281128,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 9.312916040420532,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 7.293334245681763,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 3.0757768154144287,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 59.988383531570435,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 3.050185203552246,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 6.106036424636841,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "Mistral 7B": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 2.360466400782267,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.167344331741333,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.17194175720214844,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.16886425018310547,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.16178083419799805,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.16211414337158203,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 55.528481245040894,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.14470386505126953,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.14596319198608398,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "LlaMA 3 8B": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 0.0531270702679952,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.16795802116394043,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.16211891174316406,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.16480112075805664,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.15592360496520996,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.1654982566833496,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 0.16529536247253418,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.14474773406982422,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.14870667457580566,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "LlaMA 3 70B": {
+    "performance": 0.0,
+    "pass_rate": 1.0,
+    "average_time": 0.051450888315836586,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.16527128219604492,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.1596524715423584,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.15853595733642578,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.1594536304473877,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.15958642959594727,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 0.14377999305725098,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.14314651489257812,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.14539504051208496,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "Random": {
+    "performance": 0.0017114666909924187,
+    "pass_rate": 1.0,
+    "average_time": 2.797595828771591,
+    "unique_tests": 216,
+    "seeds": [
+      42,
+      18,
+      97,
+      3,
+      200,
+      32,
+      815,
+      6
+    ],
+    "runs": [
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 42,
+        "time": 0.22149944305419922,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 18,
+        "time": 0.2764620780944824,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 97,
+        "time": 0.2125380039215088,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 3,
+        "time": 0.19674277305603027,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 200,
+        "time": 0.20966482162475586,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 32,
+        "time": 0.22325491905212402,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 815,
+        "time": 0.18692231178283691,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_api_builder",
+        "seed": 6,
+        "time": 0.19071102142333984,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 42,
+        "time": 0.3329160213470459,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 18,
+        "time": 0.3122413158416748,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 97,
+        "time": 0.2926828861236572,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 3,
+        "time": 59.94289016723633,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 200,
+        "time": 0.34172797203063965,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 32,
+        "time": 1.0717742443084717,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 815,
+        "time": 0.33127427101135254,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_application_template",
+        "seed": 6,
+        "time": 0.3353755474090576,
+        "success": false,
+        "scores": [
+          0.0,
+          0.015403200218931767,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 42,
+        "time": 0.2459399700164795,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 18,
+        "time": 0.1515796184539795,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 97,
+        "time": 0.26676368713378906,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 3,
+        "time": 0.1554710865020752,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 200,
+        "time": 0.16049838066101074,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 32,
+        "time": 0.2206897735595703,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 815,
+        "time": 1.1218628883361816,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "run": 0,
+        "test": "test_expression_builder",
+        "seed": 6,
+        "time": 0.14081668853759766,
+        "success": true,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}
