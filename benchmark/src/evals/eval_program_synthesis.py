@@ -16,17 +16,44 @@ cur_file_dir = os.path.dirname(os.path.abspath(__file__))
 
 @toggle_test(ACTIVE, default=MOCK_RETURN)
 def test_application_template(aggregate):
-    task      = """[Task]
-Create a function `create_latex_result` that takes in the `benchmark_results` as `data` and parses the LaTeX table rows and columns based on the `data` results. The table should follow the `latex_template` format and populate the rows table as indicated by the placeholder variables. Mark the best performing model per row with bold text. At the bottom of the benchmarks, place the values of the total row by computing the average over all columns and populating the `total_values` entry in the `latex_template`.
-The table should be returned as a string by the function.
-All required imports are already provided. The code of the `create_latex_result` function should be written between a
-```python
-...
-```
-code block.
-The `create_latex_result` function must be self-contained, fully functional and pass all tests.
-No other functions or explanations are required.
-"""
+    task = """[Task]
+            Create a Python function `create_latex_result(data)` that generates a LaTeX table.
+
+            STRICT REQUIREMENTS:
+            - DO NOT use backslashes inside f-string expressions (no {"\\textbf{...}"}).
+            - Use this format for bold text: \\textbf{{value}}
+            - The function MUST be fully self-contained.
+            - DO NOT assume missing keys exist in `data`.
+            - Use safe dictionary access (e.g., dict.get()) to avoid KeyError.
+            - Handle missing benchmarks (e.g., "Associations") gracefully.
+            - DO NOT generate invalid Python syntax.
+            - DO NOT split model names incorrectly.
+            - The function must return a valid LaTeX string.
+
+            The table should be returned as a string by the function.
+            All required imports are already provided. The code of the `create_latex_result` function should be written between a
+            ```python
+            ... 
+            ```
+            code block.
+            The `create_latex_result` function must be self-contained, fully functional and pass all tests.
+            No other functions or explanations are required.
+
+            Output ONLY valid Python code inside a ```python block.
+            """
+
+    # task   = """[Task]
+        # Create a function `create_latex_result` that takes in the `benchmark_results` as `data` and parses the LaTeX table rows and columns based on the `data` results. The table should follow the `latex_template` format and populate the rows table as indicated by the placeholder variables. Mark the best performing model per row with bold text. At the bottom of the benchmarks, place the values of the total row by computing the average over all columns and populating the `total_values` entry in the `latex_template`.
+        # The table should be returned as a string by the function.
+        # All required imports are already provided. The code of the `create_latex_result` function should be written between a
+        # ```python
+        # ...
+        # ```
+        # code block.
+        # The `create_latex_result` function must be self-contained, fully functional and pass all tests.
+        # No other functions or explanations are required.
+        # """
+
     # Define random sequence to normalize data
     random_seq = Symbol(RANDOMNESS).mean(axis=0)                                                                        | aggregate.random_seq
     # Create a template
@@ -36,6 +63,10 @@ No other functions or explanations are required.
     scoring    = []
     processors = ProcessorPipeline([StripPostProcessor(), CodeExtractPostProcessor()])
     code       = Symbol(processors(str(raw_res), None))                                                                 | aggregate.gen_code
+    print("\n=== GENERATED LATEX FUNCTION ===\n")
+    print(code)
+    print("\n===============================\n")
+
     reader     = FileReader()
     solution1  = reader(os.path.join(cur_file_dir, 'snippets/latex_templating_solution_1.txt'))                         | aggregate.solution1
     solution2  = reader(os.path.join(cur_file_dir, 'snippets/latex_templating_solution_2.txt'))                         | aggregate.solution2

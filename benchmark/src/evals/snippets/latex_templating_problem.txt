@@ -107,10 +107,9 @@ LATEX_TEMPLATE = """
 \\end{{figure*}}
 """
 
-
 #def create_latex_result(data):
 #    latex_table = ''
-#    # TODO: Write this function to create a latex table from the data
+#    # TODO: Must write this function to create a latex table from the data
 #
 #    return latex_table
 {TODO}

@@ -1,145 +1,9 @@
 {
-  "GPT-4 Turbo": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "LlaMA 2 13B": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
   "GPT-3.5 Turbo": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "Zephyr 7B": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "Gemini 1.0 Pro": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "Mistral 7B": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "LlaMA 3 8B": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "LlaMA 3 70B": {
-    "performance": 0.0,
-    "pass_rate": NaN,
-    "average_time": 0.0,
-    "unique_tests": 432,
-    "seeds": [
-      42,
-      18,
-      97,
-      3,
-      200,
-      32,
-      815,
-      6
-    ],
-    "runs": []
-  },
-  "Random": {
-    "performance": 0.0,
+    "performance": 0.5734076535709366,
     "pass_rate": 1.0,
-    "average_time": 0.11720852057139079,
-    "unique_tests": 432,
+    "average_time": 1.7653885682423909,
+    "unique_tests": 48,
     "seeds": [
       42,
       18,
@@ -155,7 +19,7 @@
         "run": 0,
         "test": "test_AND_logic",
         "seed": 42,
-        "time": 0.08871984481811523,
+        "time": 1.1238856315612793,
         "success": true,
         "scores": [
           0.0
@@ -165,7 +29,7 @@
         "run": 0,
         "test": "test_AND_logic",
         "seed": 18,
-        "time": 0.08460855484008789,
+        "time": 1.1443121433258057,
         "success": true,
         "scores": [
           0.0
@@ -175,27 +39,27 @@
         "run": 0,
         "test": "test_AND_logic",
         "seed": 97,
-        "time": 0.08857154846191406,
+        "time": 1.1286747455596924,
         "success": true,
         "scores": [
-          0.0
+          0.8704049454677686
         ]
       },
       {
         "run": 0,
         "test": "test_AND_logic",
         "seed": 3,
-        "time": 0.11489176750183105,
+        "time": 0.9982879161834717,
         "success": true,
         "scores": [
-          0.0
+          0.5232014044180199
         ]
       },
       {
         "run": 0,
         "test": "test_AND_logic",
         "seed": 200,
-        "time": 0.09132719039916992,
+        "time": 1.0932869911193848,
         "success": true,
         "scores": [
           0.0
@@ -205,7 +69,7 @@
         "run": 0,
         "test": "test_AND_logic",
         "seed": 32,
-        "time": 0.08924055099487305,
+        "time": 1.6286368370056152,
         "success": true,
         "scores": [
           0.0
@@ -215,27 +79,27 @@
         "run": 0,
         "test": "test_AND_logic",
         "seed": 815,
-        "time": 0.0902259349822998,
+        "time": 1.1750156879425049,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_AND_logic",
         "seed": 6,
-        "time": 0.0897223949432373,
+        "time": 2.110398054122925,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 42,
-        "time": 0.09114742279052734,
+        "time": 1.7163043022155762,
         "success": true,
         "scores": [
           0.0
@@ -245,7 +109,7 @@
         "run": 0,
         "test": "test_OR_logic",
         "seed": 18,
-        "time": 0.0970618724822998,
+        "time": 1.2286033630371094,
         "success": true,
         "scores": [
           0.0
@@ -255,57 +119,57 @@
         "run": 0,
         "test": "test_OR_logic",
         "seed": 97,
-        "time": 0.08559584617614746,
+        "time": 1.5183537006378174,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 3,
-        "time": 0.092498779296875,
+        "time": 1.177703619003296,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 200,
-        "time": 0.09139633178710938,
+        "time": 1.377798080444336,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 32,
-        "time": 0.08883857727050781,
+        "time": 2.4700357913970947,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 815,
-        "time": 0.08487296104431152,
+        "time": 0.9344267845153809,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_OR_logic",
         "seed": 6,
-        "time": 0.09136462211608887,
+        "time": 1.1641526222229004,
         "success": true,
         "scores": [
           0.0
@@ -315,37 +179,37 @@
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 42,
-        "time": 0.09472203254699707,
+        "time": 0.5603463649749756,
         "success": true,
         "scores": [
-          0.0
+          0.9588542604052029
         ]
       },
       {
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 18,
-        "time": 0.08988642692565918,
+        "time": 0.6466102600097656,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 97,
-        "time": 0.08887577056884766,
+        "time": 0.615349531173706,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 3,
-        "time": 0.09392142295837402,
+        "time": 0.383404016494751,
         "success": true,
         "scores": [
           0.0
@@ -355,27 +219,27 @@
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 200,
-        "time": 0.0861365795135498,
+        "time": 0.7809484004974365,
         "success": true,
         "scores": [
-          0.0
+          0.9588542604052029
         ]
       },
       {
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 32,
-        "time": 0.08691906929016113,
+        "time": 0.8610563278198242,
         "success": true,
         "scores": [
-          0.0
+          0.4603488075698966
         ]
       },
       {
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 815,
-        "time": 0.09222888946533203,
+        "time": 0.49424242973327637,
         "success": true,
         "scores": [
           0.0
@@ -385,7 +249,7 @@
         "run": 0,
         "test": "test_XOR_logic",
         "seed": 6,
-        "time": 0.08276605606079102,
+        "time": 0.40236687660217285,
         "success": true,
         "scores": [
           0.0
@@ -395,10 +259,10 @@
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 42,
-        "time": 0.13146376609802246,
+        "time": 1.9362168312072754,
         "success": false,
         "scores": [
-          0.0,
+          0.8285924001581817,
           0.0
         ]
       },
@@ -406,10 +270,10 @@
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 18,
-        "time": 0.12315893173217773,
+        "time": 2.931589126586914,
         "success": false,
         "scores": [
-          0.0,
+          0.6181383478430746,
           0.0
         ]
       },
@@ -417,10 +281,10 @@
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 97,
-        "time": 0.14177966117858887,
+        "time": 1.8031508922576904,
         "success": false,
         "scores": [
-          0.0,
+          0.8479093979383248,
           0.0
         ]
       },
@@ -428,21 +292,21 @@
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 3,
-        "time": 0.12859678268432617,
-        "success": false,
+        "time": 1.5046017169952393,
+        "success": true,
         "scores": [
-          0.0,
-          0.0
+          0.7926190574351135,
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 200,
-        "time": 0.12501811981201172,
+        "time": 1.9257550239562988,
         "success": false,
         "scores": [
-          0.0,
+          0.8669662338585451,
           0.0
         ]
       },
@@ -450,209 +314,209 @@
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 32,
-        "time": 0.12468314170837402,
-        "success": false,
+        "time": 1.3700289726257324,
+        "success": true,
         "scores": [
-          0.0,
-          0.0
+          0.7485197337451615,
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 815,
-        "time": 0.1268455982208252,
-        "success": false,
+        "time": 1.2941291332244873,
+        "success": true,
         "scores": [
-          0.0,
-          0.0
+          0.8175507802479978,
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_dsl_writing_capability",
         "seed": 6,
-        "time": 0.12679481506347656,
-        "success": false,
+        "time": 1.4231057167053223,
+        "success": true,
         "scores": [
-          0.0,
-          0.0
+          0.4158862702182716,
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 42,
-        "time": 0.13706088066101074,
+        "time": 1.9953718185424805,
         "success": true,
         "scores": [
-          0.0
+          0.3366993239414118
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 18,
-        "time": 0.1305866241455078,
+        "time": 2.7044129371643066,
         "success": true,
         "scores": [
-          0.0
+          0.6513609398465926
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 97,
-        "time": 0.12896990776062012,
+        "time": 1.7135872840881348,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 3,
-        "time": 0.12162256240844727,
+        "time": 2.057443618774414,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 200,
-        "time": 0.12408900260925293,
+        "time": 2.261552572250366,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 32,
-        "time": 0.13808631896972656,
+        "time": 2.012565851211548,
         "success": true,
         "scores": [
-          0.0
+          1.0
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 815,
-        "time": 0.1379222869873047,
+        "time": 1.916821002960205,
         "success": true,
         "scores": [
-          0.0
+          0.8257791130145614
         ]
       },
       {
         "run": 0,
         "test": "test_factorize_formula",
         "seed": 6,
-        "time": 0.13663291931152344,
+        "time": 1.629119873046875,
         "success": true,
         "scores": [
-          0.0
+          0.3702034235878936
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 42,
-        "time": 0.1748185157775879,
+        "time": 3.657909393310547,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          0.8154533086439844
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 18,
-        "time": 0.16925835609436035,
+        "time": 3.9706649780273438,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          0.8614616334643166
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 97,
-        "time": 0.16778063774108887,
+        "time": 4.065167427062988,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          0.8082753053972496
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 3,
-        "time": 0.17247247695922852,
+        "time": 3.8285562992095947,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          0.8820573622487959
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 200,
-        "time": 0.16887688636779785,
-        "success": false,
+        "time": 4.414290189743042,
+        "success": true,
         "scores": [
-          0.0,
-          0.0,
-          0.0
+          1.0,
+          1.0,
+          0.8698024436011063
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 32,
-        "time": 0.1750178337097168,
+        "time": 2.673785448074341,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          0.7542679844354181
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 815,
-        "time": 0.1705760955810547,
-        "success": false,
+        "time": 2.8731558322906494,
+        "success": true,
         "scores": [
-          0.0,
-          0.0,
-          0.0
+          1.0,
+          1.0,
+          0.8079913082873544
         ]
       },
       {
         "run": 0,
         "test": "test_solve_puzzle",
         "seed": 6,
-        "time": 0.16835641860961914,
+        "time": 2.041468858718872,
         "success": false,
         "scores": [
           0.0,
           0.0,
-          0.0
+          1.0
         ]
       }
     ]
